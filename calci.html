@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calci.css">
+<body>
+	<div id="wrap">
+		<input type="text" id="disp"></input>
+		<div>
+			<button class="num" onclick="show('7')">
+				7
+			</button>
+			<button class="num" onclick="show('8')">
+				8
+			</button>
+			<button class="num" onclick="show('9')">
+				9
+			</button>
+			<button id="del" onclick="backSpace()">
+				Del
+			</button>
+			<button class="sym" onclick="clearScreen()">
+				AC
+			</button>
+		</div>
+		<div>
+			<button class="num" onclick="show('4')">
+				4
+			</button>
+			<button class="num" onclick="show('5')">
+				5
+			</button>
+			<button class="num" onclick="show('6')">
+				6
+			</button>
+			<button class="sym" onclick="show('(')">
+				(
+			</button>
+			<button class="sym" onclick="show(')')">
+				)
+			</button>
+		</div>
+		<div>
+			<button class="num" onclick="show('1')">
+				1
+			</button>
+			<button class="num" onclick="show('2')">
+				2
+			</button>
+			<button class="num" onclick="show('3')">
+				3
+			</button>
+			<button class="sym" onclick="show('*')">
+				X
+			</button>
+			<button class="sym" onclick="show('/')">
+				/
+			</button>
+		</div>
+		<div>
+			<button class="num" onclick="show('.')">
+				.
+			</button>
+			<button class="num" onclick="show('0')">
+				0
+			</button>
+			<button class="equ" onclick="find()">
+				=
+			</button>
+			<button class="sym" onclick="show('+')">
+				+
+			</button>
+			<button class="sym" onclick="show('-')">
+				-
+			</button>
+		</div>
+		<footer>
+			&copy VINEETH KUMAR
+			<!--<br>
+			Email: <a href="mailto:kumarvineeth14@gmail.com">kumarvineeth14@gmail.com</a>
+			-->
+		</footer>
+	</div>
+	<script type="text/javascript" src="calci.js"></script>
+</body>
+</html>

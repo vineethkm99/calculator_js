@@ -1,0 +1,175 @@
+body{
+	background-color: #b3d9ff;
+	max-width: 100%;
+}
+#wrap{
+	position: absolute;
+	left: 20%;
+	top:100px;
+}
+input{
+	position: relative;
+	width: 570px;
+	text-align: right;
+	font-size: 30px;
+	background-color: #cce5ff;
+	border: none;
+}
+.num{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 4px;
+	border: none;
+	background-color:#e6ac00; 
+	transition-duration: 0.3s;
+	margin: 15px;
+}
+.num:hover{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 8px; 
+	border: none;
+	background-color: #ffd11a;
+}
+.num:active{
+	position: relative;
+	width: 80px;
+	height: 35px;
+	font-size: 25px;
+	border-radius: 5px; 
+	border: none;
+	background-color: #ffd11a;
+}
+#del{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 4px;
+	border: none;
+	background-color:#73AD21;
+	text-align: center;
+	padding-left: 4px;
+	color: white;
+	transition-duration: 0.3s;
+	margin: 15px;
+}
+#del:hover{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 8px;
+	border: none;
+	background-color:#3e8e41;  
+	text-align: center;
+	padding-left: 4px;
+	color: white;
+	margin: 15px;
+}
+#del:active{
+	position: relative;
+	width: 80px;
+	height: 35px;
+	font-size: 25px;
+	border-radius: 8px;
+	border: none;
+	background-color:#3e8e41;  
+	text-align: center;
+	padding-left: 4px;
+	color: white;
+	margin: 15px;
+}
+.equ{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 4px;
+	margin: 15px; 
+	border: none;
+	background-color:#800000;   
+	text-align: center;
+	color: white;
+	transition-duration: 0.3s;
+}
+.equ:hover{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 8px;
+	margin: 15px; 
+	border: none;
+	background-color:#b30000;   
+	text-align: center;
+	color: white;
+}
+.equ:active{
+	position: relative;
+	width: 80px;
+	height: 35px;
+	font-size: 25px;
+	border-radius: 8px;
+	margin: 15px; 
+	border: none;
+	background-color:#b30000;   
+	text-align: center;
+	color: white;
+}
+.sym{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 4px;
+	margin: 15px;
+	border: none;
+	background-color:#73AD21;  
+	text-align: center;
+	color: white;
+	transition-duration: 0.4s;
+}
+.sym:hover{
+	position: relative;
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	border-radius: 8px;
+	margin: 15px;
+	border: none;
+	background-color:#3e8e41;  
+	text-align: center;
+	color: white;
+}
+.sym:active{
+	position: relative;
+	width: 80px;
+	height: 35px;
+	font-size: 25px;
+	border-radius: 8px;
+	margin: 15px;
+	border: none;
+	background-color:#3e8e41;  
+	text-align: center;
+	color: white;
+}
+footer{
+	position: fixed;
+	font-family: Segoe UI;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	left: 25%;
+	bottom: 50px;
+	color: #cc3300;
+	
+}
+footer a{
+	text-decoration: none;
+	color: #cc3300;
+}
